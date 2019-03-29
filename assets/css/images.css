@@ -288,8 +288,12 @@
 
   .images{
     display: flex;
-  
 
+
+  }
+
+  .gif{
+    width: 100% !important;
   }
 
 }
