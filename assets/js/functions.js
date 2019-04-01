@@ -46,5 +46,32 @@ $(document).ready(function() {
         window.location = $(this).find("a").attr("href"); return false;
       });
 
+    //muda imagem das thumbs qdo passa o mouse
+      $( ".portifolio" ).mouseover(function() {
+
+          let element = $(this).first();
+          let img = element.children().attr('src');
+
+          var res = img.split(".jpg");
+          let newThumb = res[0] + '_mo.jpg' + res[1];
+
+          element.children().attr('src', newThumb);
+          // console.log(newThumb);
+
+      });
+
+      $( ".portifolio" ).mouseleave(function() {
+
+          let element = $(this).first();
+          let img = element.children().attr('src');
+
+          var res = img.split("_mo");
+          let newThumb = res[0] + res[1];
+
+          element.children().attr('src', newThumb);
+
+
+      });
+
 
 });
