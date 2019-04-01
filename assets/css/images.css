@@ -1,5 +1,6 @@
 /* // Medium devices (tablets, 768px and up) */
-@media only screen and (min-width: 992px) {
+/* @media only screen and (min-width: 992px) { */
+@media (min-width: 768px) {
 
   .card_1{
     height:420px;
@@ -138,17 +139,21 @@
   }
 
 
-  .images{
+  /* .images{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom:3px;
+  } */
+
+  .portifolio{
+    width: 25%;
   }
 
 
 }
 /* // Extra small devices (portrait phones, less than 576px) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
 
   .card_1{
     height:420px;
@@ -156,7 +161,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 50%;
+    width: 100% !important;
   }
 
   .card_2{
@@ -165,7 +170,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 50%;
+    width: 100% !important;
   }
 
   .card_3{
@@ -174,7 +179,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 50%;
+    width: 100% !important;
   }
 
   .card_4{
@@ -183,7 +188,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 50%;
+    width: 100% !important;
   }
 
   .card_5{
@@ -192,7 +197,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 50%;
+    width: 100% !important;
   }
 
   .card_6{
@@ -201,7 +206,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 50%;
+    width: 100% !important;
   }
 
   .card_7{
@@ -210,7 +215,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 50%;
+    width: 100% !important;
   }
 
   .card_8{
@@ -219,7 +224,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 50%;
+    width: 100% !important;
   }
 
   .card_1:hover {
@@ -227,7 +232,7 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      width: 50%;
+      width: 100% !important;
   }
 
   .card_2:hover {
@@ -235,7 +240,7 @@
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
-      width: 50%;
+      width: 100% !important;
   }
 
   .card_3:hover {
@@ -243,7 +248,7 @@
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
-      width: 50%;
+      width: 100% !important;
   }
 
   .card_4:hover {
@@ -251,7 +256,7 @@
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
-      width: 50%;
+      width: 100% !important;
   }
 
   .card_5:hover {
@@ -259,7 +264,7 @@
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
-      width: 50%;
+      width: 100% !important;
   }
 
   .card_6:hover {
@@ -267,7 +272,7 @@
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
-      width: 50%;
+      width: 100% !important;
   }
 
   .card_7:hover {
@@ -275,7 +280,7 @@
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
-      width: 50%;
+      width: 100% !important;
   }
 
   .card_8:hover {
@@ -283,13 +288,17 @@
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
-      width: 50%;
+      width: 100% !important;
   }
 
-  .images{
+  /* .images{
     display: flex;
 
 
+  } */
+
+  .portifolio{
+    width: 100%;
   }
 
   .gif{
