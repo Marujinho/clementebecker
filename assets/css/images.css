@@ -308,5 +308,25 @@
 }
 
 
+@media (min-width: 1431px) {
+
+
+  .giantScreens {
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .giantScreens div{
+    margin-bottom: 10px;
+  }
+
+
+
+
+
+ }
+
+
 
 /* } */
