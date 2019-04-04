@@ -2,149 +2,6 @@
 /* @media only screen and (min-width: 992px) { */
 @media (min-width: 768px) {
 
-  .card_1{
-    height:420px;
-    background: url("../images/home/TUMB_1.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 25%;
-  }
-
-  .card_2{
-    height:420px;
-    background: url("../images/home/TUMB_2.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 25%;
-  }
-
-  .card_3{
-    height:420px;
-    background: url("../images/home/TUMB_3.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 25%;
-  }
-
-  .card_4{
-    height:420px;
-    background: url("../images/home/TUMB_4.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 25%;
-  }
-
-  .card_5{
-    height:420px;
-    background: url("../images/home/TUMB_5.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 25%;
-  }
-
-  .card_6{
-    height:420px;
-    background: url("../images/home/TUMB_6.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 25%;
-  }
-
-  .card_7{
-    height:420px;
-    background: url("../images/home/TUMB_7.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 25%;
-  }
-
-  .card_8{
-    height:420px;
-    background: url("../images/home/TUMB_8.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 25%;
-  }
-
-  .card_1:hover {
-      background: url("../images/home/TUMB_1_mo.jpg");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      width: 25%;
-  }
-
-  .card_2:hover {
-      background: url("../images/home/TUMB_2_mo.jpg");
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      width: 25%;
-  }
-
-  .card_3:hover {
-      background: url("../images/home/TUMB_3_mo.jpg");
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      width: 25%;
-  }
-
-  .card_4:hover {
-      background: url("../images/home/TUMB_4_mo.jpg");
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      width: 25%;
-  }
-
-  .card_5:hover {
-      background: url("../images/home/TUMB_5_mo.jpg");
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      width: 25%;
-  }
-
-  .card_6:hover {
-      background: url("../images/home/TUMB_6_mo.jpg");
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      width: 25%;
-  }
-
-  .card_7:hover {
-      background: url("../images/home/TUMB_7_mo.jpg");
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      width: 25%;
-  }
-
-  .card_8:hover {
-      background: url("../images/home/TUMB_8_mo.jpg");
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      width: 25%;
-  }
-
-
-  /* .images{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom:3px;
-  } */
 
   .portifolio{
     width: 25%;
@@ -155,147 +12,7 @@
 /* // Extra small devices (portrait phones, less than 576px) */
 @media only screen and (max-width: 767px) {
 
-  .card_1{
-    height:420px;
-    background: url("../images/home/TUMB_1.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100% !important;
-  }
 
-  .card_2{
-    height:420px;
-    background: url("../images/home/TUMB_2.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100% !important;
-  }
-
-  .card_3{
-    height:420px;
-    background: url("../images/home/TUMB_3.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100% !important;
-  }
-
-  .card_4{
-    height:420px;
-    background: url("../images/home/TUMB_4.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100% !important;
-  }
-
-  .card_5{
-    height:420px;
-    background: url("../images/home/TUMB_5.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100% !important;
-  }
-
-  .card_6{
-    height:420px;
-    background: url("../images/home/TUMB_6.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100% !important;
-  }
-
-  .card_7{
-    height:420px;
-    background: url("../images/home/TUMB_7.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100% !important;
-  }
-
-  .card_8{
-    height:420px;
-    background: url("../images/home/TUMB_8.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100% !important;
-  }
-
-  .card_1:hover {
-      background: url("../images/home/TUMB_1_mo.jpg");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      width: 100% !important;
-  }
-
-  .card_2:hover {
-      background: url("../images/home/TUMB_2_mo.jpg");
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      width: 100% !important;
-  }
-
-  .card_3:hover {
-      background: url("../images/home/TUMB_3_mo.jpg");
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      width: 100% !important;
-  }
-
-  .card_4:hover {
-      background: url("../images/home/TUMB_4_mo.jpg");
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      width: 100% !important;
-  }
-
-  .card_5:hover {
-      background: url("../images/home/TUMB_5_mo.jpg");
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      width: 100% !important;
-  }
-
-  .card_6:hover {
-      background: url("../images/home/TUMB_6_mo.jpg");
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      width: 100% !important;
-  }
-
-  .card_7:hover {
-      background: url("../images/home/TUMB_7_mo.jpg");
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      width: 100% !important;
-  }
-
-  .card_8:hover {
-      background: url("../images/home/TUMB_8_mo.jpg");
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      width: 100% !important;
-  }
-
-  /* .images{
-    display: flex;
-
-
-  } */
 
   .portifolio{
     width: 100%;
@@ -308,7 +25,7 @@
 }
 
 
-@media (min-width: 1431px) {
+@media (min-width: 1441px) {
 
 
   .giantScreens {
@@ -318,15 +35,14 @@
   }
 
   .giantScreens div{
-    margin-bottom: 10px;
+    margin: -5px !important;
   }
 
-
-
-
+  .giantScreensImg {
+    text-align: center;
+  }
 
  }
-
 
 
 /* } */
