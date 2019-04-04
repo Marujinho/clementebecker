@@ -1,4 +1,6 @@
 $(document).ready(function() {
+
+
     //linkedin
     $( ".linkedin" ).mouseover(function(){
         $(this).attr("src", "assets/images/home/linkedin_mo.png");
@@ -26,18 +28,23 @@ $(document).ready(function() {
     //back_to_top
     $( ".back_to_top" ).mouseover(function(){
         $(this).attr("src", "assets/images/home/back_to_top_mo.png");
+        $(".next_project").addClass('erase');
     });
     $( ".back_to_top" ).mouseout(function(){
         $(this).attr("src", "assets/images/home/back_to_top.png");
+        $(".next_project").removeClass('erase');
     });
 
 
     //next_project
     $( ".next_project" ).mouseover(function(){
         $(this).attr("src", "assets/images/home/next_project_mo.png");
+        $(".back_to_top").addClass('erase');
+
     });
     $( ".next_project" ).mouseout(function(){
         $(this).attr("src", "assets/images/home/next_project.png");
+        $(".back_to_top").removeClass('erase');
     });
 
 
@@ -67,6 +74,5 @@ $(document).ready(function() {
 
           element.first().attr('src', newThumb);
       });
-
 
 });
